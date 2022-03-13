@@ -13,10 +13,11 @@ int main()
 	string s;
 
 	while (cin >> s)
-		;
-	for (auto &c : s)
 	{
-		c = 'X';
+		for (auto& c : s)
+		{
+			c = 'X';
+		}
 	}
 
 	cout << s << endl;
