@@ -9,7 +9,7 @@ using std::endl;
 using std::vector;
 using std::string;
 
-//依旧拿(c)为例
+//
 int main()
 {
 	vector<int> v3(10, 42);
